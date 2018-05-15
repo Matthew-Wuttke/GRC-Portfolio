@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive</title>
+<style type="text/css">
+#TripHeader {
+	width: 100%;
+	max-width: 1000px;
+	height: 300px;
+	background-color: #5AD7F7;
+	background-image: url(Images/snoopyCar.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: large;
+}
+	
+#TripHeader img {
+	width: 100%;
+	max-width: 1000px;
+	max-height: 350px;
+	background-repeat: no-repeat;
+	align-content: center;
+}
+	.headertext{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	font-size: large;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	}
+#TripNav {
+	width: 100%;
+	max-width: 1000px;
+	height: 40px;
+	background-color: #456D78;
+}
+#TripNav ul {
+	list-style-type: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ul li a {
+	width: 100%;
+	max-width: 100px;
+	text-decoration: none;
+	color: #FFCFA2;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	font-size: large;
+	margin-top: 1%;
+	float: left;
+	text-align: center;
+}
+#TripSection {
+	background-color: #DEE6E8;
+	width: 100%;
+	max-width: 1000px;
+	height: 650px;
+	}
+#TripSection #TripMain {
+	width: 100%;
+	max-width: 1000px;
+	height: 65px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	color: #2B2219;
+	font-size: 40px;
+}
+#TripSection #asideLeft {
+	float: left;
+}
+#TripSection #asideLeft img {
+	margin-left: 5%;
+	width: 100%;
+	height: 520px;
+	max-width: 400px;	
+}
+#TripSection #asideRight {
+	margin-right: 5%;
+	margin-left: 5%;
+	width: 45%;
+	height: 500px;
+	max-width: 450px;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	color: #2B2219;
+	vertical-align: length;
+	float: right;
+}
+#TripFooter {
+	width: 100%;
+	height: 40px;
+	max-width: 1000px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	background-color: #456D78;
+	color: #FFCFA2;
+	font-size: 20px;
+	border-bottom-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+}
+
+
+@media (max-width:375px){
+#TripSection {
+	background-color: #DEE6E8;
+	width: 100%;
+	max-width: 375px;
+	height: 1000px;
+	}
+#TripSection #TripMain {
+	width: 100%;
+	height: 65px;
+	text-align: center;
+	background-color: #;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	color: #2B2219;
+	font-size: 40px;
+}
+#TripSection #asideLeft {
+}
+#TripSection #asideLeft img {
+	margin-left: 5%;
+	width: 90%;
+	height: 520px;
+	max-width: 350px;
+	
+}
+#TripSection #asideRight {
+	margin-top: 5%;
+	width: 90%;
+	height: 300px;
+	font-size: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	color: #2B2219;
+}
+#TripFooter {
+	width: 100%;
+	height: 80px;
+	max-width: 375px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	background-color: #456D78;
+	color: #FFCFA2;
+	font-size: 16px;
+	border-bottom-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+}
+	}
+</style>
+</head>
+
+<body>
+<p class="headertext">Intermediate: My third project</p>
+    <header id= "TripHeader"></header>
+	<nav id="TripNav">
+	<ul>
+		<li><a href="Responsive.html">Home</a></li>
+		<li><a href="index.html">Portfolio</a></li>
+	</ul>
+</nav>
+	<section id="TripSection">
+		<main id="TripMain">Home</main>
+		<aside id="asideLeft"><img src="Images/5-star_cut.jpg"></aside>
+		<aside id="asideRight">Welcome to Tripsmart<br><br> the smart choice for the savvy traveler. We're here to help you with all your travel needs. Choose customized trips to any location or one of our Five-Star Tours, recently rated first in customer satisfaction by Traveler magazine. We are happy to arrange travel for small groups, large groups, or individuals.
+		<br><br> Our specialty is custom itineraries for independent travelers who enjoy travel at their own pace and on their own schedule. With over 30 years of experience, we can provide knowledgeable guides, comfortable and convenient hotels, and dining recommendations for every size budget.
+		</aside>
+	</section>
+	<footer id="TripFooter">666 Trip Ave, Philadelphia, PA &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp contact@TripSmart.com
+</footer>
+	 </body>
+</html>
